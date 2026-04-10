@@ -580,7 +580,7 @@
 			{#if alert_dialog_issue === 'webrtc'}
 				DisPhone requires WebRTC to function. Please enable WebRTC and try again.
 			{:else if alert_dialog_issue === 'media'}
-				DisPhone requires media access to function.
+				Mentor Softphone requires media access to function.
 			{:else if alert_dialog_issue === 'interaction'}
 				You have audio interaction requests enabled.
 			{/if}
