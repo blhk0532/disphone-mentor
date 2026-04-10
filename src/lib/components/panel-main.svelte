@@ -496,15 +496,15 @@
 
 		alert_dialog_issue = undefined
 
-		if (!interaction && 'chrome' in window && audio_request_interaction) {
-			alert_dialog_issue = 'interaction'
-			return
-		}
+	//	if (!interaction && 'chrome' in window && audio_request_interaction) {
+	//		alert_dialog_issue = 'interaction'
+	//		return
+	//	}
 
-		if (!window.RTCPeerConnection) {
-			alert_dialog_issue = 'webrtc'
-			return
-		}
+	//	if (!window.RTCPeerConnection) {
+	//		alert_dialog_issue = 'webrtc'
+	//		return
+	//	}
 
 		const got_media = await getMedia()
 		if (!got_media) return
